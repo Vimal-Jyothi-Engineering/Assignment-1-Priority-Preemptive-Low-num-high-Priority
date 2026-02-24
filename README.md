@@ -49,8 +49,10 @@ o The use of copied code from peers, seniors, or online sources without
 understanding is strictly prohibited.
 o Similarsubmissions will be penalized as per institutional policy.
 Assignment Questions
+
 Write a C program preemptivepriority.c that implements preemptive priority CPU scheduling
 (low value has higher priority).
+
 Requirements
 Read the number of processes.
 Read for each process:
@@ -70,6 +72,7 @@ Waiting Time: P1 WT P2 WT ...
 Turnaround Time: P1 TAT P2 TAT ...
 Average Waiting Time: X.XX
 Average Turnaround Time: Y.YY
+
 Autograding Levels (5 Tests)
 Leve
 l
@@ -89,13 +92,16 @@ Total: 100 points
 Input Format
 n
 PID Arrival_Time Burst_Time Priority
+
 Sample Input
+
 5
 P1 0 5 2
 P2 0 4 5
 P3 1 3 1
 P4 2 3 4
 P5 3 3 3
+
 Output Format (EXACT)
 Waiting Time:
 P1 WT1
@@ -111,6 +117,7 @@ P4 TAT4
 P5 TAT5
 Average Waiting Time: X.XX
 Average Turnaround Time: Y.YY
+
 Sample Output:
 Waiting Time:
 P1 3
