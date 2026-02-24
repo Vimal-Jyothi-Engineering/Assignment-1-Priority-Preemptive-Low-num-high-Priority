@@ -4,7 +4,7 @@ int main()
 {
     int n, i, time = 0, completed = 0;
     
-    printf("Enter number of processes: ");
+  //  printf("Enter number of processes: ");
     scanf("%d", &n);
 
     char pid[n][5];
@@ -15,7 +15,7 @@ int main()
     for(i = 0; i < n; i++)
         isCompleted[i] = 0;
 
-    printf("Enter ProcessID ArrivalTime BurstTime Priority:\n");
+  //  printf("Enter ProcessID ArrivalTime BurstTime Priority:\n");
     for(i = 0; i < n; i++)
     {
         scanf("%s %d %d %d", pid[i], &at[i], &bt[i], &pr[i]);
